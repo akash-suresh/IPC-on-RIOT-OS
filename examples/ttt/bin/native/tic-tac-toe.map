@@ -1,0 +1,923 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/akash/RIOT/examples/ttt/bin/native/core.a(kernel_init.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/cpu/startup.o (kernel_init)
+/home/akash/RIOT/examples/ttt/bin/native/core.a(thread.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/core.a(kernel_init.o) (thread_create)
+/home/akash/RIOT/examples/ttt/bin/native/core.a(hwtimer.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/core.a(kernel_init.o) (hwtimer_init)
+/home/akash/RIOT/examples/ttt/bin/native/core.a(lifo.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/core.a(hwtimer.o) (lifo_empty)
+/home/akash/RIOT/examples/ttt/bin/native/core.a(mutex.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/core.a(hwtimer.o) (mutex_lock)
+/home/akash/RIOT/examples/ttt/bin/native/core.a(priority_queue.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/core.a(mutex.o) (priority_queue_remove_head)
+/home/akash/RIOT/examples/ttt/bin/native/core.a(sched.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/core.a(thread.o) (sched_num_threads)
+/home/akash/RIOT/examples/ttt/bin/native/core.a(bitarithm.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/core.a(sched.o) (bitarithm_lsb)
+/home/akash/RIOT/examples/ttt/bin/native/core.a(clist.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/core.a(sched.o) (clist_add)
+/home/akash/RIOT/examples/ttt/bin/native/cpu.a(atomic_cpu.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/core.a(mutex.o) (atomic_set_return)
+/home/akash/RIOT/examples/ttt/bin/native/cpu.a(hwtimer_cpu.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/core.a(hwtimer.o) (hwtimer_arch_now)
+/home/akash/RIOT/examples/ttt/bin/native/cpu.a(irq_cpu.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/core.a(kernel_init.o) (disableIRQ)
+/home/akash/RIOT/examples/ttt/bin/native/cpu.a(lpm_cpu.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/core.a(kernel_init.o) (lpm_set)
+/home/akash/RIOT/examples/ttt/bin/native/cpu.a(native_cpu.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/core.a(thread.o) (thread_stack_init)
+/home/akash/RIOT/examples/ttt/bin/native/cpu.a(syscalls.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/cpu.a(irq_cpu.o) (real_read)
+/home/akash/RIOT/examples/ttt/bin/native/cpu.a(tramp.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/cpu.a(irq_cpu.o) (_native_sig_leave_tramp)
+/home/akash/RIOT/examples/ttt/bin/native/native_base.a(board_init.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/cpu/startup.o (board_init)
+/home/akash/RIOT/examples/ttt/bin/native/native_base.a(native-led.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/native_base.a(board_init.o) (_native_LED_GREEN_OFF)
+/home/akash/RIOT/examples/ttt/bin/native/tic-tac-toe.a(main.o)
+                              /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o (main)
+/home/akash/RIOT/examples/ttt/bin/native/auto_init.a(auto_init.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/core.a(kernel_init.o) (auto_init)
+/home/akash/RIOT/examples/ttt/bin/native/core.a(msg.o)
+                              /home/akash/RIOT/examples/ttt/bin/native/tic-tac-toe.a(main.o) (msg_try_send)
+/usr/lib32/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o (__libc_csu_init)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libdl.so.2                    /home/akash/RIOT/examples/ttt/bin/native/cpu.a(syscalls.o) (dlsym@@GLIBC_2.0)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtbegin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu/startup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(kernel_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(thread.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(hwtimer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(lifo.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(mutex.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(priority_queue.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(sched.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(bitarithm.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(clist.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(atomic_cpu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(hwtimer_cpu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(irq_cpu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(lpm_cpu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(native_cpu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(syscalls.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/native_base.a(board_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/native_base.a(native-led.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/tic-tac-toe.a(main.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/auto_init.a(auto_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(msg.o)
+ .group         0x0000000000000000        0x8 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtbegin.o
+LOAD /home/akash/RIOT/examples/ttt/bin/native/cpu/startup.o
+START GROUP
+LOAD /home/akash/RIOT/examples/ttt/bin/native/auto_init.a
+LOAD /home/akash/RIOT/examples/ttt/bin/native/core.a
+LOAD /home/akash/RIOT/examples/ttt/bin/native/cpu.a
+LOAD /home/akash/RIOT/examples/ttt/bin/native/periph.a
+LOAD /home/akash/RIOT/examples/ttt/bin/native/sys.a
+LOAD /home/akash/RIOT/examples/ttt/bin/native/native_base.a
+LOAD /home/akash/RIOT/examples/ttt/bin/native/tic-tac-toe.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/libm.so
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/libdl.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.9/32/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.9/32/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/libc.so
+START GROUP
+LOAD /lib32/libc.so.6
+LOAD /usr/lib32/libc_nonshared.a
+LOAD /lib32/ld-linux.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.9/32/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.9/32/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtend.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crtn.o
+                0x0000000008048000                PROVIDE (__executable_start, 0x8048000)
+                0x0000000008048154                . = (0x8048000 + SIZEOF_HEADERS)
+
+.interp         0x0000000008048154       0x13
+ *(.interp)
+ .interp        0x0000000008048154       0x13 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+
+.note.ABI-tag   0x0000000008048168       0x20
+ .note.ABI-tag  0x0000000008048168       0x20 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+
+.note.gnu.build-id
+                0x0000000008048188       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000008048188       0x24 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000080481ac       0xac
+ *(.gnu.hash)
+ .gnu.hash      0x00000000080481ac       0xac /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+
+.dynsym         0x0000000008048258      0x330
+ *(.dynsym)
+ .dynsym        0x0000000008048258      0x330 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+
+.dynstr         0x0000000008048588      0x213
+ *(.dynstr)
+ .dynstr        0x0000000008048588      0x213 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+
+.gnu.version    0x000000000804879c       0x66
+ *(.gnu.version)
+ .gnu.version   0x000000000804879c       0x66 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+
+.gnu.version_d  0x0000000008048804        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000008048804        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+
+.gnu.version_r  0x0000000008048804       0x70
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000008048804       0x70 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+
+.rel.dyn        0x0000000008048874        0x8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000008048874        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000008048874        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x000000000804887c        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+ *(.rel.ifunc)
+
+.rel.plt        0x000000000804887c       0xe8
+ *(.rel.plt)
+ .rel.plt       0x000000000804887c       0xe8 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+                0x0000000008048964                PROVIDE (__rel_iplt_start, .)
+ *(.rel.iplt)
+ .rel.iplt      0x0000000008048964        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+                0x0000000008048964                PROVIDE (__rel_iplt_end, .)
+
+.init           0x0000000008048964       0x23
+ *(SORT(.init))
+ .init          0x0000000008048964       0x1e /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crti.o
+                0x0000000008048964                _init
+ .init          0x0000000008048982        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crtn.o
+
+.plt            0x0000000008048990      0x1e0
+ *(.plt)
+ .plt           0x0000000008048990      0x1e0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+                0x00000000080489a0                strcmp@@GLIBC_2.0
+                0x00000000080489b0                sigprocmask@@GLIBC_2.0
+                0x00000000080489c0                setcontext@@GLIBC_2.0
+                0x00000000080489d0                __stack_chk_fail@@GLIBC_2.4
+                0x00000000080489e0                sigpending@@GLIBC_2.0
+                0x00000000080489f0                sigismember@@GLIBC_2.0
+                0x0000000008048a00                strsignal@@GLIBC_2.0
+                0x0000000008048a10                system@@GLIBC_2.0
+                0x0000000008048a20                strerror@@GLIBC_2.0
+                0x0000000008048a40                exit@@GLIBC_2.0
+                0x0000000008048a50                strlen@@GLIBC_2.0
+                0x0000000008048a60                __libc_start_main@@GLIBC_2.0
+                0x0000000008048a70                sigdelset@@GLIBC_2.0
+                0x0000000008048a80                atol@@GLIBC_2.0
+                0x0000000008048a90                getcontext@@GLIBC_2.1
+                0x0000000008048aa0                sigaddset@@GLIBC_2.0
+                0x0000000008048ab0                dlsym@@GLIBC_2.0
+                0x0000000008048ac0                sigfillset@@GLIBC_2.0
+                0x0000000008048ad0                memset@@GLIBC_2.0
+                0x0000000008048ae0                snprintf@@GLIBC_2.0
+                0x0000000008048af0                swapcontext@@GLIBC_2.1
+                0x0000000008048b00                __errno_location@@GLIBC_2.0
+                0x0000000008048b10                makecontext@@GLIBC_2.1
+                0x0000000008048b20                sigemptyset@@GLIBC_2.0
+                0x0000000008048b30                __isoc99_scanf@@GLIBC_2.7
+                0x0000000008048b40                vsnprintf@@GLIBC_2.0
+                0x0000000008048b50                sigaction@@GLIBC_2.0
+                0x0000000008048b60                sigaltstack@@GLIBC_2.0
+ *(.iplt)
+ .iplt          0x0000000008048b70        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+
+.text           0x0000000008048b70     0x5f52
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ .text.unlikely
+                0x0000000008048b70        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtbegin.o
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000008048b70       0x22 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+                0x0000000008048b70                _start
+ .text          0x0000000008048b92        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crti.o
+ *fill*         0x0000000008048b92        0xe 
+ .gnu.linkonce.t.__x86.get_pc_thunk.bx
+                0x0000000008048ba0        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crti.o
+                0x0000000008048ba0                __x86.get_pc_thunk.bx
+ *fill*         0x0000000008048ba4        0xc 
+ .text          0x0000000008048bb0       0xbb /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtbegin.o
+ .text          0x0000000008048c6b      0x803 /home/akash/RIOT/examples/ttt/bin/native/cpu/startup.o
+                0x0000000008048c6b                _native_null_in
+                0x0000000008048cfe                _native_log_stdout
+                0x0000000008048e5c                _native_log_stderr
+                0x0000000008048fa5                daemonize
+                0x0000000008049106                usage_exit
+ .text          0x000000000804946e      0x132 /home/akash/RIOT/examples/ttt/bin/native/core.a(kernel_init.o)
+                0x00000000080494e5                kernel_init
+ .text          0x00000000080495a0      0x603 /home/akash/RIOT/examples/ttt/bin/native/core.a(thread.o)
+                0x0000000008049676                thread_get
+                0x00000000080496c7                thread_getstatus
+                0x000000000804971c                thread_getname
+                0x000000000804976d                thread_sleep
+                0x00000000080497ca                thread_wakeup
+                0x000000000804986c                thread_yield
+                0x00000000080498de                thread_measure_stack_free
+                0x0000000008049930                thread_create
+ .text          0x0000000008049ba3      0x4bd /home/akash/RIOT/examples/ttt/bin/native/core.a(hwtimer.o)
+                0x0000000008049c42                hwtimer_spin
+                0x0000000008049c9d                hwtimer_init
+                0x0000000008049cd1                hwtimer_init_comp
+                0x0000000008049d46                hwtimer_active
+                0x0000000008049d82                hwtimer_now
+                0x0000000008049dab                hwtimer_wait
+                0x0000000008049f4b                hwtimer_set
+                0x0000000008049f94                hwtimer_set_absolute
+                0x0000000008049fdd                hwtimer_remove
+ .text          0x000000000804a060      0x19d /home/akash/RIOT/examples/ttt/bin/native/core.a(lifo.o)
+                0x000000000804a060                lifo_empty
+                0x000000000804a098                lifo_init
+                0x000000000804a0f2                lifo_insert
+                0x000000000804a191                lifo_get
+ .text          0x000000000804a1fd      0x27c /home/akash/RIOT/examples/ttt/bin/native/core.a(mutex.o)
+                0x000000000804a1fd                mutex_trylock
+                0x000000000804a240                mutex_lock
+                0x000000000804a33b                mutex_unlock
+                0x000000000804a3d9                mutex_unlock_and_sleep
+ .text          0x000000000804a479      0x12d /home/akash/RIOT/examples/ttt/bin/native/core.a(priority_queue.o)
+                0x000000000804a479                priority_queue_remove
+                0x000000000804a4e1                priority_queue_remove_head
+                0x000000000804a526                priority_queue_add
+ .text          0x000000000804a5a6      0x28b /home/akash/RIOT/examples/ttt/bin/native/core.a(sched.o)
+                0x000000000804a5a6                sched_run
+                0x000000000804a654                sched_set_status
+                0x000000000804a75d                sched_switch
+                0x000000000804a7d9                sched_task_exit
+ .text          0x000000000804a831       0xd1 /home/akash/RIOT/examples/ttt/bin/native/core.a(bitarithm.o)
+                0x000000000804a831                bitarithm_msb
+                0x000000000804a875                bitarithm_lsb
+                0x000000000804a8b9                bitarithm_bits_set
+ .text          0x000000000804a902      0x114 /home/akash/RIOT/examples/ttt/bin/native/core.a(clist.o)
+                0x000000000804a902                clist_add
+                0x000000000804a9a2                clist_remove
+ .text          0x000000000804aa16       0x59 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(atomic_cpu.o)
+                0x000000000804aa16                atomic_set_return
+ .text          0x000000000804aa6f      0x71b /home/akash/RIOT/examples/ttt/bin/native/cpu.a(hwtimer_cpu.o)
+                0x000000000804aa6f                timeval_subtract
+                0x000000000804aba2                ticks2tv
+                0x000000000804ac0b                tv2ticks
+                0x000000000804ac48                ts2ticks
+                0x000000000804ac9f                schedule_timer
+                0x000000000804ae6f                hwtimer_isr_timer
+                0x000000000804aed9                hwtimer_arch_enable_interrupt
+                0x000000000804af10                hwtimer_arch_disable_interrupt
+                0x000000000804af42                hwtimer_arch_unset
+                0x000000000804af82                hwtimer_arch_set
+                0x000000000804afd4                hwtimer_arch_set_absolute
+                0x000000000804b038                hwtimer_arch_now
+                0x000000000804b0c6                native_hwtimer_pre_init
+                0x000000000804b103                hwtimer_arch_init
+ .text          0x000000000804b18a      0xcf4 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(irq_cpu.o)
+                0x000000000804b18a                print_thread_sigmask
+                0x000000000804b282                print_sigmasks
+                0x000000000804b313                native_print_signals
+                0x000000000804b4c6                disableIRQ
+                0x000000000804b536                enableIRQ
+                0x000000000804b5c1                restoreIRQ
+                0x000000000804b5fe                inISR
+                0x000000000804b627                dINT
+                0x000000000804b650                eINT
+                0x000000000804b679                _native_popsig
+                0x000000000804b705                native_irq_handler
+                0x000000000804b781                isr_set_sigmask
+                0x000000000804b7cc                native_isr_entry
+                0x000000000804b91d                register_interrupt
+                0x000000000804ba30                unregister_interrupt
+                0x000000000804bbb3                native_interrupt_init
+ .text          0x000000000804be7e      0x1db /home/akash/RIOT/examples/ttt/bin/native/cpu.a(lpm_cpu.o)
+                0x000000000804be7e                lpm_init
+                0x000000000804bead                _native_lpm_sleep
+                0x000000000804bf0d                lpm_set
+                0x000000000804bfad                lpm_awake
+                0x000000000804bfdc                lpm_begin_awake
+                0x000000000804c001                lpm_end_awake
+                0x000000000804c030                lpm_get
+ .text          0x000000000804c059      0x42a /home/akash/RIOT/examples/ttt/bin/native/cpu.a(native_cpu.o)
+                0x000000000804c059                reboot_arch
+                0x000000000804c0c2                thread_print_stack
+                0x000000000804c0e7                thread_stack_init
+                0x000000000804c1d2                isr_cpu_switch_context_exit
+                0x000000000804c24a                cpu_switch_context_exit
+                0x000000000804c2ef                isr_thread_yield
+                0x000000000804c358                thread_yield_higher
+                0x000000000804c406                native_cpu_init
+ .text          0x000000000804c483      0xdd5 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(syscalls.o)
+                0x000000000804c483                _native_syscall_enter
+                0x000000000804c4b4                _native_syscall_leave
+                0x000000000804c5a2                malloc
+                0x000000000804c5ec                free
+                0x000000000804c630                calloc
+                0x000000000804c6cd                realloc
+                0x000000000804c720                _native_read
+                0x000000000804c77c                _native_write
+                0x000000000804c7d8                putchar
+                0x000000000804c81a                puts
+                0x000000000804c876                make_message
+                0x000000000804c93f                printf
+                0x000000000804c9cc                vprintf
+                0x000000000804ca58                vwarn
+                0x000000000804cb87                vwarnx
+                0x000000000804cc6d                verr
+                0x000000000804ccae                verrx
+                0x000000000804ccef                warn
+                0x000000000804cd31                warnx
+                0x000000000804cd73                err
+                0x000000000804cda8                errx
+                0x000000000804cddd                getpid
+                0x000000000804ce16                _native_init_syscalls
+ .text          0x000000000804d258       0x2e /home/akash/RIOT/examples/ttt/bin/native/cpu.a(tramp.o)
+                0x000000000804d258                _native_sig_leave_tramp
+ .text          0x000000000804d286       0x3e /home/akash/RIOT/examples/ttt/bin/native/native_base.a(board_init.o)
+                0x000000000804d286                board_init
+ .text          0x000000000804d2c4      0x138 /home/akash/RIOT/examples/ttt/bin/native/native_base.a(native-led.o)
+                0x000000000804d2c4                _native_LED_GREEN_OFF
+                0x000000000804d2f8                _native_LED_GREEN_ON
+                0x000000000804d32c                _native_LED_GREEN_TOGGLE
+                0x000000000804d360                _native_LED_RED_OFF
+                0x000000000804d394                _native_LED_RED_ON
+                0x000000000804d3c8                _native_LED_RED_TOGGLE
+ .text          0x000000000804d3fc      0xb8a /home/akash/RIOT/examples/ttt/bin/native/tic-tac-toe.a(main.o)
+                0x000000000804d3fc                gotoxy
+                0x000000000804d44a                main
+                0x000000000804d51a                beeps
+                0x000000000804d5b0                bgmusic
+                0x000000000804d5ef                winprint
+                0x000000000804d70c                menu
+                0x000000000804d805                make2
+                0x000000000804d883                make4
+                0x000000000804d8f0                posswin
+                0x000000000804db05                go
+                0x000000000804db66                player_first
+                0x000000000804dc6f                start_game
+                0x000000000804dd6f                check_draw
+                0x000000000804ddc6                draw_board
+                0x000000000804deae                put_X_O
+ .text          0x000000000804df86       0x24 /home/akash/RIOT/examples/ttt/bin/native/auto_init.a(auto_init.o)
+                0x000000000804df86                auto_init
+ .text          0x000000000804dfaa      0xa98 /home/akash/RIOT/examples/ttt/bin/native/core.a(msg.o)
+                0x000000000804e1be                msg_send
+                0x000000000804e244                msg_try_send
+                0x000000000804e48e                msg_send_to_self
+                0x000000000804e4f5                msg_send_int
+                0x000000000804e5b1                msg_send_receive
+                0x000000000804e630                msg_reply
+                0x000000000804e6ff                msg_reply_int
+                0x000000000804e78c                msg_try_receive
+                0x000000000804e7c6                msg_receive
+                0x000000000804e9cc                msg_init_queue
+ *fill*         0x000000000804ea42        0xe 
+ .text          0x000000000804ea50       0x72 /usr/lib32/libc_nonshared.a(elf-init.oS)
+                0x000000000804ea50                __libc_csu_init
+                0x000000000804eac0                __libc_csu_fini
+ .text          0x000000000804eac2        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtend.o
+ .text          0x000000000804eac2        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crtn.o
+ *(.gnu.warning)
+
+.fini           0x000000000804eac4       0x14
+ *(SORT(.fini))
+ .fini          0x000000000804eac4        0xf /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crti.o
+                0x000000000804eac4                _fini
+ .fini          0x000000000804ead3        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crtn.o
+                0x000000000804ead8                PROVIDE (__etext, .)
+                0x000000000804ead8                PROVIDE (_etext, .)
+                0x000000000804ead8                PROVIDE (etext, .)
+
+.rodata         0x000000000804ead8     0x105b
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000000000804ead8        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+                0x000000000804ead8                _fp_hw
+ .rodata.cst4   0x000000000804eadc        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+                0x000000000804eadc                _IO_stdin_used
+ .rodata        0x000000000804eae0      0x417 /home/akash/RIOT/examples/ttt/bin/native/cpu/startup.o
+ *fill*         0x000000000804eef7        0x1 
+ .rodata        0x000000000804eef8       0xce /home/akash/RIOT/examples/ttt/bin/native/core.a(kernel_init.o)
+ .rodata        0x000000000804efc6       0x11 /home/akash/RIOT/examples/ttt/bin/native/core.a(hwtimer.o)
+ *fill*         0x000000000804efd7        0x1 
+ .rodata        0x000000000804efd8       0x50 /home/akash/RIOT/examples/ttt/bin/native/core.a(lifo.o)
+ .rodata        0x000000000804f028       0x3c /home/akash/RIOT/examples/ttt/bin/native/cpu.a(hwtimer_cpu.o)
+ .rodata        0x000000000804f064      0x3fc /home/akash/RIOT/examples/ttt/bin/native/cpu.a(irq_cpu.o)
+ .rodata        0x000000000804f460       0x80 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(lpm_cpu.o)
+ .rodata        0x000000000804f4e0      0x1b1 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(native_cpu.o)
+ *fill*         0x000000000804f691        0x3 
+ .rodata        0x000000000804f694      0x177 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(syscalls.o)
+ *fill*         0x000000000804f80b        0x1 
+ .rodata        0x000000000804f80c       0x1f /home/akash/RIOT/examples/ttt/bin/native/native_base.a(board_init.o)
+ .rodata        0x000000000804f82b       0x52 /home/akash/RIOT/examples/ttt/bin/native/native_base.a(native-led.o)
+ *fill*         0x000000000804f87d        0x3 
+ .rodata        0x000000000804f880      0x2b3 /home/akash/RIOT/examples/ttt/bin/native/tic-tac-toe.a(main.o)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000804fb34      0x54c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000804fb34      0x54c /home/akash/RIOT/examples/ttt/bin/native/cpu/startup.o
+
+.eh_frame       0x0000000008050080     0x155c
+ *(.eh_frame)
+ .eh_frame      0x0000000008050080       0x3c /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x00000000080500bc       0xdc /home/akash/RIOT/examples/ttt/bin/native/cpu/startup.o
+                                         0xf4 (size before relaxing)
+ .eh_frame      0x0000000008050198       0x58 /home/akash/RIOT/examples/ttt/bin/native/core.a(kernel_init.o)
+                                         0x70 (size before relaxing)
+ .eh_frame      0x00000000080501f0      0x160 /home/akash/RIOT/examples/ttt/bin/native/core.a(thread.o)
+                                        0x178 (size before relaxing)
+ .eh_frame      0x0000000008050350      0x180 /home/akash/RIOT/examples/ttt/bin/native/core.a(hwtimer.o)
+                                        0x198 (size before relaxing)
+ .eh_frame      0x00000000080504d0       0x80 /home/akash/RIOT/examples/ttt/bin/native/core.a(lifo.o)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000008050550       0xa0 /home/akash/RIOT/examples/ttt/bin/native/core.a(mutex.o)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x00000000080505f0       0x60 /home/akash/RIOT/examples/ttt/bin/native/core.a(priority_queue.o)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000008050650       0x7c /home/akash/RIOT/examples/ttt/bin/native/core.a(sched.o)
+                                         0x94 (size before relaxing)
+ .eh_frame      0x00000000080506cc       0x68 /home/akash/RIOT/examples/ttt/bin/native/core.a(bitarithm.o)
+                                         0x80 (size before relaxing)
+ .eh_frame      0x0000000008050734       0x40 /home/akash/RIOT/examples/ttt/bin/native/core.a(clist.o)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x0000000008050774       0x20 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(atomic_cpu.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000008050794      0x1c8 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(hwtimer_cpu.o)
+                                        0x1e0 (size before relaxing)
+ .eh_frame      0x000000000805095c      0x254 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(irq_cpu.o)
+                                        0x26c (size before relaxing)
+ .eh_frame      0x0000000008050bb0       0xe0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(lpm_cpu.o)
+                                         0xf8 (size before relaxing)
+ .eh_frame      0x0000000008050c90       0xf4 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(native_cpu.o)
+                                        0x10c (size before relaxing)
+ .eh_frame      0x0000000008050d84      0x2d8 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(syscalls.o)
+                                        0x2f0 (size before relaxing)
+ .eh_frame      0x000000000805105c       0x20 /home/akash/RIOT/examples/ttt/bin/native/native_base.a(board_init.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x000000000805107c       0xc0 /home/akash/RIOT/examples/ttt/bin/native/native_base.a(native-led.o)
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x000000000805113c      0x1e8 /home/akash/RIOT/examples/ttt/bin/native/tic-tac-toe.a(main.o)
+                                        0x200 (size before relaxing)
+ .eh_frame      0x0000000008051324       0x20 /home/akash/RIOT/examples/ttt/bin/native/auto_init.a(auto_init.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000008051344      0x244 /home/akash/RIOT/examples/ttt/bin/native/core.a(msg.o)
+                                        0x25c (size before relaxing)
+ .eh_frame      0x0000000008051588       0x50 /usr/lib32/libc_nonshared.a(elf-init.oS)
+                                         0x7c (size before relaxing)
+ .eh_frame      0x00000000080515d8        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00000000080515dc                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x0000000008052efc                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000008052efc        0x0
+                0x0000000008052efc                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0000000008052efc                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000000008052efc        0x8
+                0x0000000008052efc                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000008052efc        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtbegin.o
+ .init_array    0x0000000008052f00        0x4 /home/akash/RIOT/examples/ttt/bin/native/cpu/startup.o
+                0x0000000008052f04                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0000000008052f04        0x4
+                0x0000000008052f04                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000008052f04        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtbegin.o
+                0x0000000008052f08                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000008052f08        0x4
+ *(.jcr)
+ .jcr           0x0000000008052f08        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtbegin.o
+ .jcr           0x0000000008052f08        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000008052f0c       0xf0
+ *(.dynamic)
+ .dynamic       0x0000000008052f0c       0xf0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+                0x0000000008052f0c                _DYNAMIC
+
+.got            0x0000000008052ffc        0x4
+ *(.got)
+ .got           0x0000000008052ffc        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+ *(.igot)
+                0x0000000008053ff4                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0000000008053000       0x80
+ *(.got.plt)
+ .got.plt       0x0000000008053000       0x80 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+                0x0000000008053000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000008053080        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+
+.data           0x0000000008053080       0x4c
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000008053080        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+                0x0000000008053080                data_start
+                0x0000000008053080                __data_start
+ .data          0x0000000008053084        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crti.o
+ .data          0x0000000008053084        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtbegin.o
+                0x0000000008053084                __dso_handle
+ .data          0x0000000008053088        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu/startup.o
+ .data          0x0000000008053088        0x8 /home/akash/RIOT/examples/ttt/bin/native/core.a(kernel_init.o)
+                0x0000000008053088                main_name
+                0x000000000805308c                idle_name
+ .data          0x0000000008053090        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(thread.o)
+ .data          0x0000000008053090        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(hwtimer.o)
+ .data          0x0000000008053090        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(lifo.o)
+ .data          0x0000000008053090        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(mutex.o)
+ .data          0x0000000008053090        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(priority_queue.o)
+ .data          0x0000000008053090        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(sched.o)
+ .data          0x0000000008053090        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(bitarithm.o)
+ .data          0x0000000008053090        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(clist.o)
+ .data          0x0000000008053090        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(atomic_cpu.o)
+ .data          0x0000000008053090        0x4 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(hwtimer_cpu.o)
+ .data          0x0000000008053094        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(irq_cpu.o)
+ .data          0x0000000008053094        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(lpm_cpu.o)
+ .data          0x0000000008053094        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(native_cpu.o)
+ .data          0x0000000008053094        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(syscalls.o)
+ .data          0x0000000008053094        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(tramp.o)
+ .data          0x0000000008053094        0x0 /home/akash/RIOT/examples/ttt/bin/native/native_base.a(board_init.o)
+ .data          0x0000000008053094        0x0 /home/akash/RIOT/examples/ttt/bin/native/native_base.a(native-led.o)
+ *fill*         0x0000000008053094        0xc 
+ .data          0x00000000080530a0       0x2c /home/akash/RIOT/examples/ttt/bin/native/tic-tac-toe.a(main.o)
+                0x00000000080530a0                board
+                0x00000000080530c8                turn
+ .data          0x00000000080530cc        0x0 /home/akash/RIOT/examples/ttt/bin/native/auto_init.a(auto_init.o)
+ .data          0x00000000080530cc        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(msg.o)
+ .data          0x00000000080530cc        0x0 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .data          0x00000000080530cc        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtend.o
+ .data          0x00000000080530cc        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crtn.o
+
+.tm_clone_table
+                0x00000000080530cc        0x0
+ .tm_clone_table
+                0x00000000080530cc        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtbegin.o
+ .tm_clone_table
+                0x00000000080530cc        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtend.o
+
+.data1
+ *(.data1)
+                0x00000000080530cc                _edata = .
+                0x00000000080530cc                PROVIDE (edata, .)
+                0x00000000080530cc                . = .
+                0x00000000080530cc                __bss_start = .
+
+.bss            0x0000000008053100    0x18c80
+ *(.dynbss)
+ .dynbss        0x0000000008053100        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000008053100        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o
+ .bss           0x0000000008053100        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crti.o
+ .bss           0x0000000008053100        0x1 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtbegin.o
+ *fill*         0x0000000008053101        0x3 
+ .bss           0x0000000008053104       0x28 /home/akash/RIOT/examples/ttt/bin/native/cpu/startup.o
+                0x0000000008053104                _native_null_in_pipe
+                0x000000000805310c                _native_null_out_file
+                0x0000000008053110                _progname
+                0x0000000008053114                _native_argv
+                0x0000000008053118                _native_pid
+                0x000000000805311c                _native_id
+                0x0000000008053120                _native_rng_seed
+                0x0000000008053124                _native_rng_mode
+                0x0000000008053128                _native_unix_socket_path
+ *fill*         0x000000000805312c       0x14 
+ .bss           0x0000000008053140     0x6040 /home/akash/RIOT/examples/ttt/bin/native/core.a(kernel_init.o)
+                0x0000000008053140                lpm_prevent_sleep
+ .bss           0x0000000008059180        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(thread.o)
+ .bss           0x0000000008059180       0x34 /home/akash/RIOT/examples/ttt/bin/native/core.a(hwtimer.o)
+ .bss           0x00000000080591b4        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(lifo.o)
+ .bss           0x00000000080591b4        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(mutex.o)
+ .bss           0x00000000080591b4        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(priority_queue.o)
+ *fill*         0x00000000080591b4        0xc 
+ .bss           0x00000000080591c0      0x144 /home/akash/RIOT/examples/ttt/bin/native/core.a(sched.o)
+                0x00000000080591c0                sched_num_threads
+                0x00000000080591c4                sched_context_switch_request
+                0x0000000008059200                sched_threads
+                0x0000000008059284                sched_active_thread
+                0x0000000008059288                sched_active_pid
+                0x00000000080592c0                sched_runqueues
+ .bss           0x0000000008059304        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(bitarithm.o)
+ .bss           0x0000000008059304        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(clist.o)
+ .bss           0x0000000008059304        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(atomic_cpu.o)
+ *fill*         0x0000000008059304       0x3c 
+ .bss           0x0000000008059340       0x94 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(hwtimer_cpu.o)
+ *fill*         0x00000000080593d4       0x2c 
+ .bss           0x0000000008059400     0x46c8 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(irq_cpu.o)
+                0x0000000008059400                native_interrupts_enabled
+                0x0000000008059404                _native_in_isr
+                0x0000000008059408                _native_in_syscall
+                0x0000000008059440                __isr_stack
+                0x000000000805b440                native_isr_context
+                0x000000000805b59c                _native_cur_ctx
+                0x000000000805b5a0                _native_isr_ctx
+                0x000000000805b5a4                _native_saved_eip
+                0x000000000805b5a8                _native_sigpend
+                0x000000000805b5ac                _sig_pipefd
+                0x000000000805b5c0                sigalt_stk
+ .bss           0x000000000805dac8        0x4 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(lpm_cpu.o)
+ *fill*         0x000000000805dacc       0x34 
+ .bss           0x000000000805db00     0x2180 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(native_cpu.o)
+                0x000000000805db00                end_context
+                0x000000000805dc80                __end_stack
+ .bss           0x000000000805fc80       0xac /home/akash/RIOT/examples/ttt/bin/native/cpu.a(syscalls.o)
+                0x000000000805fc80                real_read
+                0x000000000805fc84                real_write
+                0x000000000805fc88                real_fread
+                0x000000000805fc8c                real_clearerr
+                0x000000000805fc90                real_exit
+                0x000000000805fc94                real_free
+                0x000000000805fc98                real_malloc
+                0x000000000805fc9c                real_calloc
+                0x000000000805fca0                real_realloc
+                0x000000000805fca4                real_freeaddrinfo
+                0x000000000805fca8                real_freeifaddrs
+                0x000000000805fcac                real_srandom
+                0x000000000805fcb0                real_accept
+                0x000000000805fcb4                real_bind
+                0x000000000805fcb8                real_printf
+                0x000000000805fcbc                real_getaddrinfo
+                0x000000000805fcc0                real_getifaddrs
+                0x000000000805fcc4                real_getpid
+                0x000000000805fcc8                real_chdir
+                0x000000000805fccc                real_close
+                0x000000000805fcd0                real_creat
+                0x000000000805fcd4                real_dup2
+                0x000000000805fcd8                real_execve
+                0x000000000805fcdc                real_fork
+                0x000000000805fce0                real_feof
+                0x000000000805fce4                real_ferror
+                0x000000000805fce8                real_listen
+                0x000000000805fcec                real_ioctl
+                0x000000000805fcf0                real_open
+                0x000000000805fcf4                real_pause
+                0x000000000805fcf8                real_pipe
+                0x000000000805fcfc                real_select
+                0x000000000805fd00                real_setitimer
+                0x000000000805fd04                real_setsid
+                0x000000000805fd08                real_setsockopt
+                0x000000000805fd0c                real_socket
+                0x000000000805fd10                real_unlink
+                0x000000000805fd14                real_random
+                0x000000000805fd18                real_gai_strerror
+                0x000000000805fd1c                real_fopen
+                0x000000000805fd20                real_umask
+                0x000000000805fd24                real_clock_gettime
+                0x000000000805fd28                _native_in_calloc
+ .bss           0x000000000805fd2c        0x0 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(tramp.o)
+ .bss           0x000000000805fd2c        0x0 /home/akash/RIOT/examples/ttt/bin/native/native_base.a(board_init.o)
+ .bss           0x000000000805fd2c        0x0 /home/akash/RIOT/examples/ttt/bin/native/native_base.a(native-led.o)
+ *fill*         0x000000000805fd2c       0x14 
+ .bss           0x000000000805fd40     0xc040 /home/akash/RIOT/examples/ttt/bin/native/tic-tac-toe.a(main.o)
+                0x000000000805fd40                flag
+                0x000000000805fd44                player
+                0x000000000805fd48                comp
+                0x000000000805fd4c                m
+                0x000000000805fd54                m1
+                0x000000000805fd5c                pid
+                0x000000000805fd5e                pid1
+                0x000000000805fd60                pid2
+                0x000000000805fd80                empty1
+                0x0000000008063d80                empty2
+                0x0000000008067d80                empty3
+ .bss           0x000000000806bd80        0x0 /home/akash/RIOT/examples/ttt/bin/native/auto_init.a(auto_init.o)
+ .bss           0x000000000806bd80        0x0 /home/akash/RIOT/examples/ttt/bin/native/core.a(msg.o)
+ .bss           0x000000000806bd80        0x0 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .bss           0x000000000806bd80        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtend.o
+ .bss           0x000000000806bd80        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crtn.o
+ *(COMMON)
+                0x000000000806bd80                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000806bd80                . = ALIGN (0x4)
+                0x000000000806bd80                . = SEGMENT_START ("ldata-segment", .)
+                0x000000000806bd80                . = ALIGN (0x4)
+                0x000000000806bd80                _end = .
+                0x000000000806bd80                PROVIDE (end, .)
+                0x000000000806bd80                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x48
+ *(.comment)
+ .comment       0x0000000000000000       0x24 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtbegin.o
+                                         0x25 (size before relaxing)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/cpu/startup.o
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/core.a(kernel_init.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/core.a(thread.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/core.a(hwtimer.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/core.a(lifo.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/core.a(mutex.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/core.a(priority_queue.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/core.a(sched.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/core.a(bitarithm.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/core.a(clist.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(atomic_cpu.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(hwtimer_cpu.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(irq_cpu.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(lpm_cpu.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(native_cpu.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/cpu.a(syscalls.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/native_base.a(board_init.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/native_base.a(native-led.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/tic-tac-toe.a(main.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/auto_init.a(auto_init.o)
+ .comment       0x0000000000000024       0x25 /home/akash/RIOT/examples/ttt/bin/native/core.a(msg.o)
+ .comment       0x0000000000000024       0x24 /usr/lib32/libc_nonshared.a(elf-init.oS)
+                                         0x25 (size before relaxing)
+ .comment       0x0000000000000048       0x25 /usr/lib/gcc/x86_64-linux-gnu/4.9/32/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(/home/akash/RIOT/examples/ttt/bin/native/tic-tac-toe.elf elf32-i386)
